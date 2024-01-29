@@ -1,6 +1,6 @@
 //case 1
 
-function getProductsForCollection(metafieldValue) {
+/* function getProductsForCollection(metafieldValue) {
   // Step 1: Parse Metafield
   const tags = metafieldValue.split('Make_'); // Adjust the splitting logic based on your actual tag format
 
@@ -20,17 +20,17 @@ function getProductsForCollection(metafieldValue) {
 
   return Array.from(collectionProducts);
 }
-
-function searchProductsByTag(tag) {
+ */
+/* function searchProductsByTag(tag) {
   // Implement logic to search for products with the given tag
   // You may need to navigate your hierarchical structure to find matching products
   // This function should return an array or set of product IDs, for example.
-}
+} */
 
 // Example Usage:
-const metafieldValue = "Group_Electric-Pallet-Jack-PartsMake_BT-Prime-Mover";
+/* const metafieldValue = "Group_Electric-Pallet-Jack-PartsMake_BT-Prime-Mover";
 const productsForCollection = getProductsForCollection(metafieldValue);
-console.log(productsForCollection);
+console.log(productsForCollection); */
 
 
 
